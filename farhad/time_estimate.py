@@ -32,3 +32,9 @@ def TimeEstimate(start,num,xlist):
         
     sys.stdout.write('\r'+ run)
     
+    
+def EstimateFaster(num,xlist):
+    num+=1
+    run = ("["+str(num)+'/'+str(len(xlist))+"]")
+        
+    sys.stdout.write('\r'+ run)
